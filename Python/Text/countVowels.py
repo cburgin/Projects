@@ -30,6 +30,7 @@ for character in inputVar:
 		oCount = oCount + 1
 	elif character == 'u' or character == 'U':
 		uCount = uCount + 1
+		
 totalCount = aCount + eCount + iCount + oCount + uCount
 
 print( "In the string '" + inputVar + "', there are:\n"
